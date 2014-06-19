@@ -1,0 +1,1 @@
+java_ee_sdk-7-jdk7-windows-x64.exe -j "C:\Program Files\Java\jre7"
