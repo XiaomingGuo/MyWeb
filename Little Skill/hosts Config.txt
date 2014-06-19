@@ -1,0 +1,2 @@
+1¡¢open path:C:\Windows\System32\drivers\etc\hosts
+2¡¢add IP        net station name(127.0.0.1       www.earthquake.com)

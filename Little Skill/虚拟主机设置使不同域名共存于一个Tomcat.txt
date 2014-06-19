@@ -1,0 +1,7 @@
+1、打开%Tomcat%\conf\server.xml
+2、修改文件中如下部分
+<Engine name="Catalina" defaultHost="ren">
+    <Host name="www.baidu.com" appBase="webapps/ren"/>
+    <Host name="www.google.com" appBase="webapps/stimpy"/>
+<Engine/>
+一个<Host>代表一个虚拟主机、一个域名，
