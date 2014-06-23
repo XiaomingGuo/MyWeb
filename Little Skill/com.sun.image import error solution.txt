@@ -1,0 +1,9 @@
+在Eclipse中处理图片，需要引入两个包：
+import com.sun.image.codec.jpeg.JPEGCodec;
+import com.sun.image.codec.jpeg.JPEGImageEncoder;
+报错:
+Access restriction: The type JPEGImageEncoder is not accessible due to restriction on required library C:\Java\jre1.6.0_07\lib\rt.jar
+
+
+此时解决办法：
+Eclipse默认把这些受访问限制的API设成了ERROR。只要把Windows-Preferences-Java-Complicer-Errors/Warnings里面的Deprecated and restricted API中的Forbidden references(access rules)选为Warning就可以编译通过。
