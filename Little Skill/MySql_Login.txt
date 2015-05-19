@@ -1,0 +1,2 @@
+MySql -u root -p<Enter>
+<password>
